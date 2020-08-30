@@ -10,4 +10,4 @@ Thank you to all the people who already contributed to DonyaOS!
 
 ### License
 
-**MIT**
+[![MIT License](https://img.shields.io/github/license/DonyaOS/PackageManager)](LICENSE)
