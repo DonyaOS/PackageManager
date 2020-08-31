@@ -1,12 +1,21 @@
 # Donya Package Manager
 
+- [Donya or d](#donya-or-d)
+- [Donya Package Manager Commands](#donya-package-manager-commands)
+  - [install or `i`](#install-or-i)
+  - [search or `s`](#search-or-s)
+  - [remove or `r`](#remove-or-r)
+  - [list or `l`](#list-or-l)
+- [Contribution to Donya Package Manager](#contribution-to-donya-package-manager)
+- [License](#license)
+
 Donya Package System
 
 ![Donya Package System](https://user-images.githubusercontent.com/2658040/91432025-65355380-e876-11ea-8b4c-400b0aa77a4d.jpg)
 
 ## Donya or d
 
-We will set `d` as a alias of donya later.
+We will set `d` as an alias of donya later.
 
 ```
 ./donya install php ; install php version 7.1
@@ -42,12 +51,12 @@ We will set `d` as a alias of donya later.
 
 -----------
 
-### Contribution to Donya Package Manager
+## Contribution to Donya Package Manager
 
 Please make sure to read the Contributing Guide before making a pull request. If you have a Donya-related project/feature/tool, add it with a pull request to this curated list!
 
 Thank you to all the people who already contributed to DonyaOS!
 
-### License
+## License
 
 [![MIT License](https://img.shields.io/github/license/DonyaOS/PackageManager)](LICENSE)
