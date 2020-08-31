@@ -15,7 +15,7 @@ Donya Package System
 
 ## Donya or d
 
-We will set `d` as an alias of donya later.
+We will set `d` as an alias of `donya` later.
 
 ```
 ./donya install php ; install php version 7.1
@@ -24,8 +24,8 @@ We will set `d` as an alias of donya later.
 ./donya i php7.4 ; install php version 7.4
 ./donya i gcc ; install gcc
 
-./donya s php ; search all package with php perfix
-./donya search php ; search all package with php perfix
+./donya s php ; search all package with php prefix
+./donya search php ; search all package with php prefix
 
 ./donya r php ; remove php package
 ./donya remove php ; remove php package
