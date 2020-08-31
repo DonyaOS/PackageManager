@@ -24,18 +24,21 @@ We will set `d` as a alias of donya later.
 ./donya i php* ; install all php prefix package
 ```
 
-### Donya Package Manager Commands
+## Donya Package Manager Commands
 
-#### install or `i`
+### install or `i`
 
-#### search or `s`
+### search or `s`
 
-#### remove or `r`
+### remove or `r`
 
-#### list or `l`
+### list or `l`
 
 `./donya list` : List of all installed packages
+
 `./donya list all` : List of all packages avaiable in repsitory
+
+-----------
 
 ### Contribution to Donya Package Manager
 
