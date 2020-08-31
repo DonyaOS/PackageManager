@@ -1,4 +1,4 @@
 #!/bin/bash
 
-markdownlint '**/*.md' --ignore node_modules
+markdownlint '**/*.md' --ignore node_modules --fix
 yamllint .
