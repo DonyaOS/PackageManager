@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  go-lint:
+    docker:  # run the steps with Docker
+      # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
+      - image: circleci/golang:1.14
+    # directory where steps are run. Path must conform to the Go Workspace requirements
+    working_directory: /go/src/github.com/DonyaOS/PackageManager
+    steps:
+      - checkout
+      - restore_cache:  # restores saved cache if no changes are detected since last run
+          # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
+          keys:
+            - v1-pkg-cache
+      - run: go get -u github.com/mgechev/revive
+      - run:
+          name: 🧹 Run Golang revive lint
+          command: |
+            sh ./revive.sh || exit 1
+      - save_cache:  # Store cache in the /go/pkg directory
+          key: v1-pkg-cache
+          paths:
+            - "/go/pkg"

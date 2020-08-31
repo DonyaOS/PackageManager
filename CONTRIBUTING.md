@@ -24,10 +24,22 @@ To build the Go file into an executable for Linux run:
 go build src/donya.go
 ```
 
-And for Windows:
+And generally for Windows:
 
 ```
 env GOOS=windows GOARCH=amd64 go build src/donya.go
+```
+
+To see all the platforms run:
+
+```
+go tool dist list -json
+```
+
+You can install `revive` with:
+
+```
+go get -u github.com/mgechev/revive
 ```
 
 - [Go](https://golang.org/) - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
