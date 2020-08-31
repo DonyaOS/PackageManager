@@ -16,17 +16,18 @@ Example run:
 
 ```
 go run src/donya.go
-Usage:
-  donya [command]
+```
 
-Available Commands:
-  help        Help about any command
-  install     Installing package(s) in DonyaOS
+To build the Go file into an executable for Linux run:
 
-Flags:
-  -h, --help   help for donya
+```
+go build src/donya.go
+```
 
-Use "donya [command] --help" for more information about a command.
+And for Windows:
+
+```
+env GOOS=windows GOARCH=amd64 go build src/donya.go
 ```
 
 - [Go](https://golang.org/) - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
