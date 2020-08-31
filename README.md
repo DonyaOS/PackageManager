@@ -36,7 +36,7 @@ We will set `d` as a alias of donya later.
 
 `./donya list` : List of all installed packages
 
-`./donya list all` : List of all packages avaiable in repsitory
+`./donya list all` : List of all packages available in the repository
 
 -----------
 
