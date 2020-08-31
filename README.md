@@ -10,7 +10,7 @@ We will set `d` as a alias of donya later.
 ./donya install php ; install php version 7.1
 ./donya i php ; install php version 7.1
 
-./donya i php7.4 ; install php version 7.2
+./donya i php7.4 ; install php version 7.4
 ./donya i gcc ; install gcc
 
 ./donya s php ; search all package with php perfix
