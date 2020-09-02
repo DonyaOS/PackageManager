@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./cmd"
+	"github.com/DonyaOS/PackageManager/cmd"
 )
 
 func main() {

@@ -15,19 +15,19 @@ go get -u ./...
 Example run:
 
 ```
-go run src/donya.go
+go run donya.go
 ```
 
 To build the Go file into an executable for Linux run:
 
 ```
-go build src/donya.go
+go build donya.go
 ```
 
 And generally for Windows:
 
 ```
-env GOOS=windows GOARCH=amd64 go build src/donya.go
+env GOOS=windows GOARCH=amd64 go build donya.go
 ```
 
 To see all the platforms run:
@@ -40,6 +40,12 @@ You can install `revive` with:
 
 ```
 go get -u github.com/mgechev/revive
+```
+
+To clean up the `go.sum` file run:
+
+```
+go mod tidy
 ```
 
 - [Go](https://golang.org/) - Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
