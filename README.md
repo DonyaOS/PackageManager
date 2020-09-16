@@ -5,7 +5,6 @@
 [![IRC chat on freenode](https://img.shields.io/badge/IRC%20chat%20on%20freenode-%23DonyaOS-brightgreen)](#donya-package-manager)
 [![Build Status](https://cloud.drone.io/api/badges/DonyaOS/PackageManager/status.svg)](https://cloud.drone.io/DonyaOS/PackageManager)
 
-
 - [Donya or d](#donya-or-d)
 - [Donya Package Manager Commands](#donya-package-manager-commands)
   - [install or `i`](#install-or-i)
@@ -65,4 +64,4 @@ Thank you to all the people who already contributed to DonyaOS!
 
 ## License
 
-[![MIT License](https://img.shields.io/github/license/DonyaOS/PackageManager)](LICENSE)
+[MIT License](LICENSE)
