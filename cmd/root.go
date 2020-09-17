@@ -4,22 +4,29 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/DonyaOS/PackageManager/cmd/install"
+	"github.com/DonyaOS/PackageManager/cmd/purge"
+	"github.com/DonyaOS/PackageManager/cmd/search"
 	"github.com/spf13/cobra"
 )
 
-var cfgFile string
-
-// rootCmd represents the base command when called without any subcommands
-var rootCmd = &cobra.Command{
-	Use:   "todo",
-	Short: "A simple todo list made with golan",
-}
+// ExitFailure status code.
+const ExitFailure = 1
 
 // Execute adds all child commands to the root command and sets flags appropriately.
 // This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
-	if err := rootCmd.Execute(); err != nil {
-		fmt.Println(err)
-		os.Exit(1)
+	root := &cobra.Command{
+		Use:   "donya",
+		Short: "Donya Package Manager/System",
+	}
+
+	install.Register(root)
+	purge.Register(root)
+	search.Register(root)
+
+	if err := root.Execute(); err != nil {
+		fmt.Printf("error: %s\n", err.Error())
+		os.Exit(ExitFailure)
 	}
 }
