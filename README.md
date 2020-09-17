@@ -1,9 +1,9 @@
 # Donya Package Manager
 
-[![MIT License](https://img.shields.io/github/license/DonyaOS/PackageManager?color=brightgreen)](LICENSE)
-[![GitHub Linter Workflow Status](https://img.shields.io/github/workflow/status/DonyaOS/PackageManager/Lint?label=Linter)](#donya-package-manager)
-[![IRC chat on freenode](https://img.shields.io/badge/IRC%20chat%20on%20freenode-%23DonyaOS-brightgreen)](#donya-package-manager)
-[![Build Status](https://cloud.drone.io/api/badges/DonyaOS/PackageManager/status.svg)](https://cloud.drone.io/DonyaOS/PackageManager)
+[![MIT License](https://img.shields.io/github/license/DonyaOS/PackageManager?color=brightgreen&style=flat-square)](LICENSE)
+[![GitHub Linter Workflow Status](https://img.shields.io/github/workflow/status/DonyaOS/PackageManager/Lint?label=Linter&logo=github&style=flat-square)](#donya-package-manager)
+[![IRC chat on freenode](https://img.shields.io/badge/IRC%20chat%20on%20freenode-%23DonyaOS-brightgreen?style=flat-square)](#donya-package-manager)
+[![Drone (cloud) with branch](https://img.shields.io/drone/build/DonyaOS/PackageManager/master?logo=drone&style=flat-square)](https://cloud.drone.io/DonyaOS/PackageManager)
 
 - [Donya or d](#donya-or-d)
 - [Donya Package Manager Commands](#donya-package-manager-commands)
