@@ -1,0 +1,21 @@
+---
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: lint
+    image: golangci/golangci-lint
+    commands:
+      - golangci-lint run --enable-all
+  - name: test
+    image: golang
+    commands:
+      - go test -v ./... -covermode=atomic -coverprofile=coverage.out
+  - name: coverage
+    image: plugins/codecov
+    settings:
+      token:
+        from_secret: codecov_token
+      files:
+        - coverage.out
