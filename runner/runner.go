@@ -42,6 +42,7 @@ func New() *Runner {
 	}
 }
 
+// nolint: funlen
 func (r *Runner) Run(str string) error {
 	_, err := r.runtime.RunString(str)
 	if err != nil {
@@ -71,6 +72,7 @@ func (r *Runner) Run(str string) error {
 
 	for i, source := range sources {
 		logrus.Info(source)
+
 		resp, err := r.client.R().Get(source)
 		if err != nil {
 			logrus.Error(err)
