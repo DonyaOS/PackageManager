@@ -11,9 +11,20 @@ func TestRunner(t *testing.T) {
 	r := runner.New()
 
 	script := `
-module.exports = function() {
+version = "13"
+arch = "amd64"
+
+sources = [
+	"https://httpbin.org/bytes/" + version,
+]
+
+function install() {
 	console.log(this.go)
+	console.log(this.version)
 	console.log('Hello World')
+
+	console.log(this.files[0])
+	exec.run(['cat', this.files[0]])
 }
 `
 
