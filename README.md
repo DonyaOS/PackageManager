@@ -40,15 +40,25 @@ We will set `d` as an alias of `donya` later.
 ./donya i php* ; install all php prefix package
 ```
 
+## Compiling Donya Package Manager
+
+```
+$ go get github.com/DonyaOS/PackageManager
+$ go env GOPATH
+$ cd (paste GOPATH here)\src\github.com\DonyaOS\PackageManager
+$ go build
+$ ./PackageManager
+```
+
 ## Donya Package Manager Commands
 
-### install or `i`
+#### install or `i`
 
-### search or `s`
+#### search or `s`
 
-### remove or `r`
+#### remove or `r`
 
-### list or `l`
+#### list or `l`
 
 `./donya list` : List of all installed packages
 
