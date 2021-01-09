@@ -44,8 +44,7 @@ We will set `d` as an alias of `donya` later.
 
 ```
 $ go get github.com/DonyaOS/PackageManager
-$ go env GOPATH
-$ cd (paste GOPATH here)\src\github.com\DonyaOS\PackageManager
+$ cd $(go env GOPATH)/src/github.com/DonyaOS/PackageManager
 $ go build
 $ ./PackageManager
 ```
