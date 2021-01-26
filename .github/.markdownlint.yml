@@ -1,5 +1,11 @@
+# MD001/heading-increment/header-increment
+MD001: false
+
 # MD013/line-length
 MD013: false
+
+# MD014/commands-show-output
+MD014: false
 
 # MD040/fenced-code-language
 MD040: false
