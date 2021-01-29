@@ -74,3 +74,31 @@ Thank you to all the people who already contributed to DonyaOS!
 ## License
 
 [MIT License](LICENSE)
+
+## Install on debian chroot environment
+
+1. Create a simple chroot in debian based distro 
+[Create debian chroot](https://gist.github.com/esmaeelE/ab35177313793d342174c28ff4bcbc07)
+2. activate chroot environment 
+
+2. Download and Install go inside chroot env
+
+[Official download link](https://golang.org/dl/)
+
+extract downloaded package and place under `/usr/local`
+
+`tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz`
+
+Once the file is extracted, edit the `$PATH` environment variable so that the system knows where the Go executable binaries are located. You can do this either by appending the following line to the /etc/profile file (for a system-wide installation) or to the `$HOME/.profile` file (for a current user installation):`~/.profile`
+
+`export PATH=$PATH:/usr/local/go/bin`
+
+Save the file, and apply the new PATH environment variable to the current shell session by typing:
+
+`source ~/.profile`
+
+To verify that Go has been successfully installed run the following command which will print the Go version:
+
+`go version`
+
+[Original Resource](https://linuxize.com/post/how-to-install-go-on-debian-10/)
