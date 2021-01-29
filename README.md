@@ -89,6 +89,8 @@ extract downloaded package and place under `/usr/local`
 
 `tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz`
 
+Change name of package `go1.13.linux-amd64.tar.gz` as it changes version.
+
 Once the file is extracted, edit the `$PATH` environment variable so that the system knows where the Go executable binaries are located. You can do this either by appending the following line to the /etc/profile file (for a system-wide installation) or to the `$HOME/.profile` file (for a current user installation):`~/.profile`
 
 `export PATH=$PATH:/usr/local/go/bin`
