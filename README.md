@@ -87,7 +87,7 @@ Thank you to all the people who already contributed to DonyaOS!
 
 extract downloaded package and place under `/usr/local`
 
-`tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz`
+`tar -C /usr/local -xzvf go1.13.linux-amd64.tar.gz`
 
 Change name of package `go1.13.linux-amd64.tar.gz` as it changes version.
 
