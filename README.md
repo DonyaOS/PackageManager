@@ -1,6 +1,6 @@
 # Donya Package Manager
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![MIT License](https://img.shields.io/github/license/DonyaOS/PackageManager?color=brightgreen&style=flat-square)](LICENSE)
@@ -121,6 +121,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jbampton"><img src="https://avatars.githubusercontent.com/u/418747?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Bampton</b></sub></a><br /><a href="https://github.com/DonyaOS/PackageManager/commits?author=jbampton" title="Code">💻</a></td>
     <td align="center"><a href="https://1995parham.me"><img src="https://avatars.githubusercontent.com/u/8181240?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Parham Alvani</b></sub></a><br /><a href="https://github.com/DonyaOS/PackageManager/commits?author=1995parham" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/esmaeelE"><img src="https://avatars.githubusercontent.com/u/22000310?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EEC</b></sub></a><br /><a href="https://github.com/DonyaOS/PackageManager/commits?author=esmaeelE" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://amir-shiati.github.io/"><img src="https://avatars.githubusercontent.com/u/47950086?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Amir</b></sub></a><br /><a href="https://github.com/DonyaOS/PackageManager/commits?author=amir-shiati" title="Code">💻</a></td>
   </tr>
 </table>
 
