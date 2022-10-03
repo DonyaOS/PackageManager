@@ -80,11 +80,12 @@ Thank you to all the people who already contributed to DonyaOS!
 
 ## Install on debian chroot environment
 
-1. Create a simple chroot in debian based distro 
-[Create debian chroot](https://gist.github.com/esmaeelE/ab35177313793d342174c28ff4bcbc07)
-2. activate chroot environment 
+1. Create a simple chroot in Debian based distro
+[Create Debian chroot](https://gist.github.com/esmaeelE/ab35177313793d342174c28ff4bcbc07)
 
-2. Download and Install go inside chroot env
+2. Activate chroot environment
+
+3. Download and install Go inside chroot env
 
 [Official download link](https://golang.org/dl/)
 
