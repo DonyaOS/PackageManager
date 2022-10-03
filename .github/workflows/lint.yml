@@ -2,6 +2,9 @@ name: Lint
 
 on: [push, pull_request]
 
+permissions:  # added using https://github.com/step-security/secure-workflows
+  contents: read
+
 jobs:
   markdownlint:
     name: 🧹 Markdown Lint
